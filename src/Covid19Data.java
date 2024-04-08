@@ -33,4 +33,12 @@ public class Covid19Data {
                 ", dato='" + dato + '\'' +
                 '}';
     }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public String getAldergruppe() {
+        return aldergruppe;
+    }
 }

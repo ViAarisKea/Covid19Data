@@ -14,7 +14,6 @@ public class FileHandler {
         Scanner sc = null;
         try {
             sc = new Scanner(file, StandardCharsets.ISO_8859_1);
-            //sc.nextLine();  // Skip første linje
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
